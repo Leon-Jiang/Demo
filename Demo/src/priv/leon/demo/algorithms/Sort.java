@@ -21,7 +21,7 @@ public class Sort {
 			quickSort(arr,l+1,high);
 	}
 	
-	public static void bubbleSort(int[]arr){
+	public static void bubbleSort(int[]arr){//this is master anno
 		int l = arr.length;
 		for(int i = l ; i>0;i--){
 			for(int j =0 ;j<i;j++){
